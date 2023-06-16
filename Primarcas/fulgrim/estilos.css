@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(88, 18, 18);
+    background-image: url(imag/fondo.webp);
+    background-size: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    /*width: 90%;*/
+    width: 1200px;
+    margin: 0px auto;
+}
+header{
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 120px;
+    color: rgb(0, 0, 0);
+    background-color:  rgb(11, 44, 12);
+    opacity: 0.7;
+}
+
+nav{
+    background-color: rgb(2, 36, 2);
+    height: 50px;
+    border-bottom: 1px rgb(253, 253, 253);
+    padding-left: 30px;
+    opacity: 0.86;
+}
+nav ul li{
+    float: right;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+    color: rgb(223, 223, 223);
+}
+
+.clearfix{
+    clear:both;
+}
+
+#content{
+    float: right;
+    width: calc(80% - 80px);
+    min-height: 1400px;
+    background-color: rgb(40, 58, 39);
+    padding: 40px;
+    opacity: 0.9;
+}
+
+.article{
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(138, 93, 93);
+    opacity: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+ul{
+
+    color: aliceblue;
+}
+
+aside{
+    color: rgb(160, 173, 163);
+    float: right;
+    width: calc(20% - 110px);
+    min-height: 2400px;
+    background-color:  rgb(25, 66, 21);
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 40px;
+    opacity: 0.7;
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    color: rgb(17, 16, 16);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    opacity: 0.9;
+}
+.section{
+    opacity: inherit;
+}
+.p1{
+ text-align: center;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+img{
+text-align: right;
+image-orientation: initial;
+align-items: stretch;
+}
+a{
+    color: rgb(145, 115, 17);
+}
+.p1{
+    padding: 10px;
+}
